@@ -5,8 +5,8 @@
     "": {
       "name": "@pasarguard/core-kit",
       "dependencies": {
-        "@pasarguard/wireguard-config-kit": "file:../wireguard-config-kit",
-        "@pasarguard/xray-config-kit": "file:../xray-config-kit",
+        "@pasarguard/wireguard-config-kit": "0.1.0",
+        "@pasarguard/xray-config-kit": "0.1.0",
       },
       "devDependencies": {
         "@types/bun": "^1.3.9",
@@ -21,9 +21,9 @@
 
     "@noble/post-quantum": ["@noble/post-quantum@0.5.4", "", { "dependencies": { "@noble/curves": "~2.0.0", "@noble/hashes": "~2.0.0" } }, "sha512-leww0zzIirrvwaYMPI9fj6aRIlA/c6Y0/lifQQ1YOOyHEr0MNH3yYpjXeiVG+tWdPps4XxGclFWX2INPO3Yo5w=="],
 
-    "@pasarguard/wireguard-config-kit": ["@pasarguard/wireguard-config-kit@file:../wireguard-config-kit", { "dependencies": { "@stablelib/x25519": "^2.0.1", "zod": "^3.25.76" }, "devDependencies": { "@types/bun": "^1.3.9", "typescript": "^5.5.4" } }],
+    "@pasarguard/wireguard-config-kit": ["@pasarguard/wireguard-config-kit@0.1.0", "", { "dependencies": { "@stablelib/x25519": "^2.0.1", "zod": "^3.25.76" }, "devDependencies": { "@types/bun": "^1.3.9", "typescript": "^5.5.4" } }],
 
-    "@pasarguard/xray-config-kit": ["@pasarguard/xray-config-kit@file:../xray-config-kit", { "dependencies": { "@noble/post-quantum": "^0.5.4", "@stablelib/x25519": "^2.0.1", "mlkem": "^2.7.0", "zod": "^3.23.8", "zod-to-json-schema": "^3.25.2" }, "devDependencies": { "@types/bun": "^1.3.9", "@types/node": "^20.12.12", "typescript": "^5.5.4" } }],
+    "@pasarguard/xray-config-kit": ["@pasarguard/xray-config-kit@0.1.0", "", { "dependencies": { "@noble/post-quantum": "^0.5.4", "@stablelib/x25519": "^2.0.1", "mlkem": "^2.7.0", "zod": "^3.23.8", "zod-to-json-schema": "^3.25.2" }, "devDependencies": { "@types/bun": "^1.3.9", "@types/node": "^20.12.12", "typescript": "^5.5.4" } }],
 
     "@stablelib/binary": ["@stablelib/binary@2.0.1", "", { "dependencies": { "@stablelib/int": "^2.0.1" } }, "sha512-U9iAO8lXgEDONsA0zPPSgcf3HUBNAqHiJmSHgZz62OvC3Hi2Bhc5kTnQ3S1/L+sthDTHtCMhcEiklmIly6uQ3w=="],
 
