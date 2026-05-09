@@ -4,7 +4,9 @@
   "description": "Browser-safe registry facade for PasarGuard core configuration kits.",
   "type": "module",
   "packageManager": "bun",
-  "license": "MIT",
+  "license": "AGPL-3.0",
+  "author": "PasarGuard",
+  "repository": "https://github.com/PasarGuard/core-kit",
   "sideEffects": false,
   "files": [
     "dist",
